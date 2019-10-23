@@ -13,7 +13,7 @@ def CreateEntry(request):
     if request.method == 'POST':
         ids = str(uuid4())
         taskId = scrapyd.schedule('kcrawler', 
-        'mainspider', keyword = request.POST.get('keyword', None), unique_id = ids)
+        'mainspider', keyword = request.POST.get('keyword', None), uid = ids)
         entry = EntryItem()
         entry.unique_id = ids
         entry.keyword = request.POST.get('keyword', None)

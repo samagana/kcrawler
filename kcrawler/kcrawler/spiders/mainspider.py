@@ -16,8 +16,10 @@ class MainSpider(scrapy.Spider):
         item = KcrawlerItem()
         listofarticles = response.css(
             'div.tab_content div.content span.title::text').getall()
-        for i in listofarticles:
-            item['url'] = ""
+        listofurls = response.css(
+            'div.tab_content div.content a::attr(href)').getall()
+        for i in range(len(listofarticles)):
+            item['url'] = 'https://vijaykarnataka.com' + listofurls[i]
             item['content'] = ""
-            item["headline"] = i
+            item["headline"] = listofarticles[i]
             yield item
