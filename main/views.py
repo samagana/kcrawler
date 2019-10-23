@@ -25,4 +25,5 @@ def CreateEntry(request):
     return render(request, 'main/index.html', {'objects': objects, 'form': form})
 
 def ListArticles(request, pk):
-    return render(request, 'main/list.html', {'objects': ArticleItem.objects.filter(entry=pk)})
+    keyword = EntryItem.objects.get(pk=pk).keyword
+    return render(request, 'main/list.html', {'keyword': keyword, 'objects': ArticleItem.objects.filter(entry=pk)})

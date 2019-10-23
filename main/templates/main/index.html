@@ -19,13 +19,13 @@
             <div class="col-6">
                 <form method="POST">
                     {% csrf_token %}
-                    {{ form.as_p }}
+                    {{ form }}
                     <input type="submit" class="btn btn-primary" value="Search">
                 </form>
             </div>
         </div>
         <div class="row">
-        <div class="col-6">
+        <div class="col-6 pt-4">
             <h1>Recent Searches</h1>
             <table class='table align-items-center table-flush'>
                 <thead class='thead-light'>

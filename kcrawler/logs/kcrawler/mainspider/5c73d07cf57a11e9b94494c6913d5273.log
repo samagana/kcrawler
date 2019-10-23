@@ -1,0 +1,130 @@
+2019-10-23 15:19:14 [scrapy.utils.log] INFO: Scrapy 1.7.4 started (bot: kcrawler)
+2019-10-23 15:19:14 [scrapy.utils.log] INFO: Versions: lxml 4.4.1.0, libxml2 2.9.9, cssselect 1.1.0, parsel 1.5.2, w3lib 1.21.0, Twisted 19.7.0, Python 3.5.2 (default, Oct  8 2019, 13:06:37) - [GCC 5.4.0 20160609], pyOpenSSL 19.0.0 (OpenSSL 1.0.2g  1 Mar 2016), cryptography 2.8, Platform Linux-4.15.0-64-generic-x86_64-with-Ubuntu-16.04-xenial
+2019-10-23 15:19:14 [scrapy.crawler] INFO: Overridden settings: {'SPIDER_MODULES': ['kcrawler.spiders'], 'NEWSPIDER_MODULE': 'kcrawler.spiders', 'LOG_FILE': 'logs/kcrawler/mainspider/5c73d07cf57a11e9b94494c6913d5273.log', 'BOT_NAME': 'kcrawler'}
+2019-10-23 15:19:14 [scrapy.extensions.telnet] INFO: Telnet Password: 4a71680c04015c3c
+2019-10-23 15:19:14 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.memusage.MemoryUsage']
+2019-10-23 15:19:14 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-10-23 15:19:14 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-10-23 15:19:14 [scrapy.middleware] INFO: Enabled item pipelines:
+['kcrawler.pipelines.KcrawlerPipeline']
+2019-10-23 15:19:14 [scrapy.core.engine] INFO: Spider opened
+2019-10-23 15:19:14 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-10-23 15:19:14 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-10-23 15:19:14 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://vijaykarnataka.com/topics/%E0%B2%AA%E0%B3%8D%E0%B2%B0%E0%B3%80%E0%B2%A4%E0%B2%AE%E0%B3%8D> from <GET https://vijaykarnataka.indiatimes.com/topics/%E0%B2%AA%E0%B3%8D%E0%B2%B0%E0%B3%80%E0%B2%A4%E0%B2%AE%E0%B3%8D>
+2019-10-23 15:19:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://vijaykarnataka.com/topics/%E0%B2%AA%E0%B3%8D%E0%B2%B0%E0%B3%80%E0%B2%A4%E0%B2%AE%E0%B3%8D> (referer: None)
+2019-10-23 15:19:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://vijaykarnataka.com/topics/%E0%B2%AA%E0%B3%8D%E0%B2%B0%E0%B3%80%E0%B2%A4%E0%B2%AE%E0%B3%8D>
+{'content': '',
+ 'headline': "\nಹಾಡುಗಳ ಮೂಲಕ ಸಖತ್ ಹವಾ ಸೃಷ್ಟಿಸುತ್ತಿರುವ 'ಅಂಬಾನಿ ಪುತ್ರ'\n",
+ 'url': ''}
+2019-10-23 15:19:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://vijaykarnataka.com/topics/%E0%B2%AA%E0%B3%8D%E0%B2%B0%E0%B3%80%E0%B2%A4%E0%B2%AE%E0%B3%8D>
+{'content': '',
+ 'headline': "\nಫಿಕ್ಸ್ ಆಯ್ತು ಗಣೇಶ್ ನಟನೆಯ '99' ಚಿತ್ರದ ಬಿಡುಗಡೆ ದಿನಾಂಕ!\n",
+ 'url': ''}
+2019-10-23 15:19:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://vijaykarnataka.com/topics/%E0%B2%AA%E0%B3%8D%E0%B2%B0%E0%B3%80%E0%B2%A4%E0%B2%AE%E0%B3%8D>
+{'content': '',
+ 'headline': "\n99 Movie Song: 'ಮುಂಗಾರು ಮಳೆ' ನೆನಪಿಸಿದ ಗಣೇಶ್\n",
+ 'url': ''}
+2019-10-23 15:19:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://vijaykarnataka.com/topics/%E0%B2%AA%E0%B3%8D%E0%B2%B0%E0%B3%80%E0%B2%A4%E0%B2%AE%E0%B3%8D>
+{'content': '',
+ 'headline': '\nಶಾಸಕ ಪ್ರೀತಂ ಗೌಡರಿಗೆ ಬೆದರಿಕೆ: 8 ಮಂದಿ ವಿರುದ್ಧ ಪ್ರಕರಣ ದಾಖಲು\n',
+ 'url': ''}
+2019-10-23 15:19:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://vijaykarnataka.com/topics/%E0%B2%AA%E0%B3%8D%E0%B2%B0%E0%B3%80%E0%B2%A4%E0%B2%AE%E0%B3%8D>
+{'content': '',
+ 'headline': "\nಗಣೇಶ್ '99' ಲುಕ್ ನೋಡಿ ಕಿಚ್ಚ ಸುದೀಪ್ ಹೇಳಿದ್ದೇನು?\n",
+ 'url': ''}
+2019-10-23 15:19:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://vijaykarnataka.com/topics/%E0%B2%AA%E0%B3%8D%E0%B2%B0%E0%B3%80%E0%B2%A4%E0%B2%AE%E0%B3%8D>
+{'content': '',
+ 'headline': '\nಗೋಲ್ಡನ್ ಸ್ಟಾರ್ ಗಣೇಶ್ ಗಡ್ಡ ಬಿಟ್ಟು ಸುತ್ತಾಡುತ್ತಿರುವುದೇಕೆ?\n',
+ 'url': ''}
+2019-10-23 15:19:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://vijaykarnataka.com/topics/%E0%B2%AA%E0%B3%8D%E0%B2%B0%E0%B3%80%E0%B2%A4%E0%B2%AE%E0%B3%8D>
+{'content': '',
+ 'headline': '\n'
+             'ಗಣರಾಜ್ಯೋತ್ಸವ ವೇದಿಕೆ ಮೇಲೆ ಕಿತ್ತಾಡಿಕೊಂಡ H.D.ರೇವಣ್ಣ ಮತ್ತು ಕಮಲ '
+             'ಶಾಸಕ\n',
+ 'url': ''}
+2019-10-23 15:19:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://vijaykarnataka.com/topics/%E0%B2%AA%E0%B3%8D%E0%B2%B0%E0%B3%80%E0%B2%A4%E0%B2%AE%E0%B3%8D>
+{'content': '',
+ 'headline': '\n96 Remake in Kannada: ತಮಿಳಿನ 96 ಕನ್ನಡದಲ್ಲಿ 99!\n',
+ 'url': ''}
+2019-10-23 15:19:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://vijaykarnataka.com/topics/%E0%B2%AA%E0%B3%8D%E0%B2%B0%E0%B3%80%E0%B2%A4%E0%B2%AE%E0%B3%8D>
+{'content': '',
+ 'headline': '\nದೇಹ ದಾನ ಮಾಡಿ ಸಾವಲ್ಲೂ ಸಾರ್ಥಕತೆ ಮೆರೆದ ಮಂಗಳೂರಿನ ಬಾಲಕಿ ಪ್ರತೀಕ್ಷಾ\n',
+ 'url': ''}
+2019-10-23 15:19:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://vijaykarnataka.com/topics/%E0%B2%AA%E0%B3%8D%E0%B2%B0%E0%B3%80%E0%B2%A4%E0%B2%AE%E0%B3%8D>
+{'content': '',
+ 'headline': '\nಹೆಚ್ಚು ಮಕ್ಕಳನ್ನು ಮಾಡಿಕೊಳ್ಳಿ: ಮಿಜೋರಾಂ ಸಮುದಾಯಕ್ಕೆ ಸಲಹೆ\n',
+ 'url': ''}
+2019-10-23 15:19:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://vijaykarnataka.com/topics/%E0%B2%AA%E0%B3%8D%E0%B2%B0%E0%B3%80%E0%B2%A4%E0%B2%AE%E0%B3%8D>
+{'content': '',
+ 'headline': '\n'
+             'Karnataka Elections: ಸಿಎಂಗೆ ಬನಶಂಕರಿ ಶಾಪವೂ ತಟ್ಟಲಿದೆ ಎಂದ ಜೋಶಿ, '
+             'ಬಾದಾಮಿಯಲ್ಲಿ ಶ್ರೀ ರಾಮುಲು ಕಣಕ್ಕೆ\n',
+ 'url': ''}
+2019-10-23 15:19:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://vijaykarnataka.com/topics/%E0%B2%AA%E0%B3%8D%E0%B2%B0%E0%B3%80%E0%B2%A4%E0%B2%AE%E0%B3%8D>
+{'content': '',
+ 'headline': '\nBJP 4ನೇ ಪಟ್ಟಿ: ಯಶವಂತಪುರದಿಂದ ಜಗ್ಗೇಶ್\u200c\n',
+ 'url': ''}
+2019-10-23 15:19:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://vijaykarnataka.com/topics/%E0%B2%AA%E0%B3%8D%E0%B2%B0%E0%B3%80%E0%B2%A4%E0%B2%AE%E0%B3%8D>
+{'content': '',
+ 'headline': '\nಚುಚ್ಚುಮದ್ದಿಗೆ ಮಕ್ಕಳಿಬ್ಬರ ಸಾವು: 1 ಲಕ್ಷ ರೂ. ಪರಿಹಾರ ಘೋಷಣೆ\n',
+ 'url': ''}
+2019-10-23 15:19:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://vijaykarnataka.com/topics/%E0%B2%AA%E0%B3%8D%E0%B2%B0%E0%B3%80%E0%B2%A4%E0%B2%AE%E0%B3%8D>
+{'content': '', 'headline': '\nಚಿತ್ರ ವಿಮರ್ಶೆ: ದಂಗಲ್\n', 'url': ''}
+2019-10-23 15:19:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://vijaykarnataka.com/topics/%E0%B2%AA%E0%B3%8D%E0%B2%B0%E0%B3%80%E0%B2%A4%E0%B2%AE%E0%B3%8D>
+{'content': '', 'headline': '\nಜಾರುಬಂಡಿಯಿಂದ ಬಿದ್ದು ಬಾಲಕ ಸಾವು\n', 'url': ''}
+2019-10-23 15:19:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://vijaykarnataka.com/topics/%E0%B2%AA%E0%B3%8D%E0%B2%B0%E0%B3%80%E0%B2%A4%E0%B2%AE%E0%B3%8D>
+{'content': '',
+ 'headline': '\nಸ್ವಕ್ಷೇತ್ರದಲ್ಲಿ ಸೋಲುಕಂಡ ಸಿಎಂ: ಉತ್ತರಾಖಂಡ ಬಿಜೆಪಿ ತೆಕ್ಕೆಗೆ\n',
+ 'url': ''}
+2019-10-23 15:19:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://vijaykarnataka.com/topics/%E0%B2%AA%E0%B3%8D%E0%B2%B0%E0%B3%80%E0%B2%A4%E0%B2%AE%E0%B3%8D>
+{'content': '', 'headline': '\nಪೂರ್ವ ವಲಯ ಚಾಂಪಿಯನ್\u200c\n', 'url': ''}
+2019-10-23 15:19:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://vijaykarnataka.com/topics/%E0%B2%AA%E0%B3%8D%E0%B2%B0%E0%B3%80%E0%B2%A4%E0%B2%AE%E0%B3%8D>
+{'content': '', 'headline': '\n\u200b ಪಾಲಿಕೆ:ಹಳೆ ದೋಸ್ತಿ ಗಟ್ಟಿ\n', 'url': ''}
+2019-10-23 15:19:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://vijaykarnataka.com/topics/%E0%B2%AA%E0%B3%8D%E0%B2%B0%E0%B3%80%E0%B2%A4%E0%B2%AE%E0%B3%8D>
+{'content': '',
+ 'headline': '\nಪ್ರಜ್ಞಾ ಸೆಂಟ್ರಲ್\u200c ಶಾಲೆಗೆ ಶೇ.100 ಫಲಿತಾಂಶ\n',
+ 'url': ''}
+2019-10-23 15:19:18 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-10-23 15:19:18 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 585,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 37732,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 1,
+ 'downloader/response_status_count/301': 1,
+ 'elapsed_time_seconds': 3.983666,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 10, 23, 9, 49, 18, 407805),
+ 'item_scraped_count': 19,
+ 'log_count/DEBUG': 21,
+ 'log_count/INFO': 10,
+ 'memusage/max': 71376896,
+ 'memusage/startup': 71376896,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 2,
+ 'scheduler/dequeued/memory': 2,
+ 'scheduler/enqueued': 2,
+ 'scheduler/enqueued/memory': 2,
+ 'start_time': datetime.datetime(2019, 10, 23, 9, 49, 14, 424139)}
+2019-10-23 15:19:18 [scrapy.core.engine] INFO: Spider closed (finished)

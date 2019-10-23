@@ -12,6 +12,9 @@ class EntryItem(models.Model):
     def __str__(self):
         return self.keyword
 
+    class Meta:
+        ordering = ["-date"]
+
 class ArticleItem(models.Model):
     entry = models.CharField(max_length=100)
     url = models.CharField(max_length=200)
